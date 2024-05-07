@@ -431,6 +431,7 @@ test-results/
 .DS_Store
 .AppleDouble
 .LSOverride
+info.txt
 
 # Icon must end with two \r
 Icon
