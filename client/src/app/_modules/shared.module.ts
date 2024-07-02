@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ToastrModule } from 'ngx-toastr';
 import { TabsModule } from 'ngx-bootstrap/tabs';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 
 
@@ -16,6 +17,9 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
       timeOut: 1500,
       positionClass: 'toast-bottom-right',
       preventDuplicates: true,
+    }),
+    NgxSpinnerModule.forRoot({
+      type: 'line-scale-party'
     })
   ],
   exports: [
